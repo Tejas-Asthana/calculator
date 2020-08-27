@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html {
+    background-color: #3f3b3b;
+  }
+  
+  .calci-body {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 13%;
+    transform: translate(45%, 0%);
+    padding: 1% 2%;
+    border-radius: 10px;
+  }
+  
+  .screen {
+    background-color: rgba(255, 31, 90, 0.5);
+    width: 70%;
+    max-height: 70px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+    padding: 5px 50px;
+    margin: 30px auto 20px;
+  }
+  
+  .screen > .screen-input {
+    width: 100%;
+    padding: 15px 15px;
+    /* border: 1px solid #fff; */
+  }
+  
+  .keypad {
+    margin: 10px auto;
+  }
+  
+  .keypad-btn {
+    margin: 10px 10px;
+  }
+  
+  .last-row {
+    margin: 0 1px;
+    max-width: 10%;
+    margin: 5px 0;
+  }
+  
+   .downloadCSV {
+    width: 30px;
+    fill: #dc3545;
+    transition: all 0.2s;
+  }
+  
+   .download-history:hover .downloadCSV {
+    fill: #fff;
+    transition: all 0.2s;
+  }
+  
+  .column {
+    margin: 0px 10px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .calci-body {
+      top: 15%;
+      width: 80%;
+      transform: translate(15%, 0%);
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .calci-body {
+      top: 10%;
+      width: 100%;
+      transform: translate(0%, 0%);
+    }
+  
+    .screen {
+      padding: 5px 5px;
+      overflow-y: auto;
+    }
+  }
+  

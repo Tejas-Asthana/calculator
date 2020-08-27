@@ -33,6 +33,7 @@ export default class screen extends React.Component {
           placeholder={0}
           onChange={(event) => this.handleChange(event)}
           style={inputstyle}
+          disabled
         />
       </div>
     )
