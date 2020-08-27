@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To run this App in your localhost use following commands:
+1. Download and unzip the repo
+2. open folder in terminal and run command: `npm i`
+3. run command: `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
